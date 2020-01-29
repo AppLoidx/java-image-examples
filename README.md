@@ -110,7 +110,7 @@ Now, lets combine this methods to get really good scaled avatars for users:
     if (delta > 0) {
         subImage = originalImage.getSubimage(0, delta/2 , originalImage.getWidth(), originalImage.getHeight() - delta);
     } else if (delta < 0){
-        subImage = originalImage.getSubimage(delta/2, 0 , originalImage.getWidth() + delta, originalImage.getHeight());
+        subImage = originalImage.getSubimage(-delta/2, 0 , originalImage.getWidth() + delta, originalImage.getHeight());
     } else {
         subImage = originalImage;
     }
