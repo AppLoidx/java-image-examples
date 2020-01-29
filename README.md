@@ -91,6 +91,7 @@ Result:
 
 ![](img/thumbnailatorImage.jpg)
 
+### Resizing and cropping
 Now, lets combine this methods to get really good scaled avatars for users:
 
 ```java
